@@ -1,0 +1,17 @@
+messages:
+  no-permission: '&cУ вас недостаточно прав.'
+  write-usage: '&cИспользование: /logwrite <файл.txt|файл.yml> <текст>'
+  invalid-file-name: '&cОшибка: укажите только имя файла без пути.'
+  unsupported-extension: '&cОшибка: разрешены только файлы .txt и .yml'
+  write-error: '&c[LogWriter] Не удалось записать данные в файл.'
+  write-success: '&a[LogWriter] Запись успешно добавлена в файл: &f%file%'
+  reload-usage: '&cИспользование: /logwriter reload'
+  reload-success: '&aПерезагрузка выполнена!'
+
+console:
+  enabled: '[LogWriter] Плагин успешно запущен.'
+  logs-folder: '[LogWriter] Папка логов: %path%'
+  disabled: '[LogWriter] Плагин отключен.'
+  directory-error: '[LogWriter] Не удалось создать папку логов: %path%'
+  commands-missing: '[LogWriter] Команды не найдены в plugin.yml.'
+  write-error: '[LogWriter] Ошибка записи в файл %file%.'
