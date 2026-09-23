@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.dain</groupId>
-    <artifactId>quietban</artifactId>
+    <groupId>ru.player_skill</groupId>
+    <artifactId>logwriter</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>QuietBan</name>
-    <description>Тихий кик забаненных игроков из базы данных при входе в лобби (Spigot 1.12.2)</description>
+    <name>LogWriter</name>
+    <description>Запись текста из команд в специальные лог-файлы (Spigot 1.12.2)</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -38,7 +38,7 @@
     </dependencies>
 
     <build>
-        <finalName>QuietBan</finalName>
+        <finalName>LogWriter</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
