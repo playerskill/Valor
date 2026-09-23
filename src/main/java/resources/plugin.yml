@@ -1,7 +1,7 @@
 name: LogWriter
 version: 1.0.3
-main: ru.playerskill.logwriter.LogWriter
-author: PlayeR_SkilL, PrayDain
+main: ru.player_skill.logwriter.LogWriter
+author: PlayeR_SkiLL, PrayDain
 description: Плагин для записи сообщений в текстовые и YAML-файлы.
 
 commands:
