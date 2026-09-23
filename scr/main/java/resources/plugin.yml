@@ -1,0 +1,23 @@
+name: LogWriter
+version: 1.0.3
+main: ru.playerskill.logwriter.LogWriter
+author: PlayeR_SkilL, PrayDain
+description: Плагин для записи сообщений в текстовые и YAML-файлы.
+
+commands:
+  logwrite:
+    description: Записывает текст в лог-файл
+    usage: /logwrite <файл.txt|файл.yml> <текст>
+  logwriter:
+    description: Управление LogWriter
+    usage: /logwriter reload
+    aliases:
+      - lw
+
+permissions:
+  logwriter.write:
+    description: Позволяет записывать сообщения в LogWriter
+    default: op
+  logwriter.reload:
+    description: Позволяет использовать перезагрузку LogWriter
+    default: op
