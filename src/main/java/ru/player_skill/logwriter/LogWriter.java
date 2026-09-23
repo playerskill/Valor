@@ -1,4 +1,4 @@
-package ru.playerskill.logwriter;
+package ru.player_skill.logwriter;
 
 import java.io.File;
 import java.io.IOException;
