@@ -1,4 +1,4 @@
-package ru.playerskill.logwriter;
+package ru.player_skill.logwriter;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
